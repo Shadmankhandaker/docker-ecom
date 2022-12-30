@@ -6,15 +6,7 @@
   <h4 align="center"><b>A multi vendor e-commerce website with admin panel, seller panel and deliveryboy panel</b></h4>
 </p>
 
-<p align="center"> 
-    <img alt="All Stars" src="https://visitor-badge.laobi.icu/badge?page_id=detronetdip.E-commerce"/>&nbsp;
-    <img src="https://img.shields.io/github/stars/detronetdip/E-commerce" />
-    &nbsp;
-    <img src="https://img.shields.io/github/forks/detronetdip/E-commerce" />&nbsp;
-    <img src="https://img.shields.io/github/repo-size/detronetdip/E-commerce"/>
-    &nbsp;
-    <img src="https://img.shields.io/github/last-commit/detronetdip/E-commerce"/>
-</p>
+
 
 <p>
   <h4 align="center"><i>Build with ❤️ and</i></h4>
@@ -41,8 +33,8 @@
   ***Please make sure that docker is installed in your system.***
   
   ```
-   > git clone https://github.com/detronetdip/E-commerce.git
-   > cd {to your cloned path}/E-commerce/
+   > git clone https://github.com/Shadmankhandaker/docker-ecom.git
+   > cd {to your cloned path}/docker-ecom/
    > docker build -t app -f Dockerfile .
    > cd database
    > docker build -t app_database -f Dockerfile .
@@ -60,9 +52,9 @@
   ***Please make sure that docker and docker-compose is installed in your system.***
   
   ```
-   > git clone https://github.com/detronetdip/E-commerce.git
+   > git clone https://github.com/Shadmankhandaker/docker-ecom.git
 
-   > cd {to your cloned path}/E-commerce/`
+   > cd {to your cloned path}/docker-ecom/`
 
    > docker-compose up -d --build
   ```
